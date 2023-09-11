@@ -10,7 +10,7 @@ import (
 type InsertDTO struct {
 	Name        string
 	Description string
-	Date        *time.Time
+	Date        *string
 }
 
 type UpdateDTO struct {
