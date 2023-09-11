@@ -2,9 +2,14 @@ package ports
 
 import (
 	"context"
+	"errors"
 	"time"
 
 	"github.com/sanzhh/todo/internal/models"
+)
+
+var (
+	ErrTodoNotFound = errors.New("todo not found")
 )
 
 type InsertDTO struct {
@@ -17,7 +22,7 @@ type UpdateDTO struct {
 	ID          string
 	Name        *string
 	Description *string
-	Date        *time.Time
+	Date        *string
 	Done        *bool
 }
 
