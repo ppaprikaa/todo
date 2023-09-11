@@ -22,8 +22,8 @@ type UpdateDTO struct {
 }
 
 type Storage interface {
-	Insert(ctx context.Context, data InsertDTO) (*models.Todo, error)
-	Update(ctx context.Context, data UpdateDTO) (*models.Todo, error)
+	Insert(ctx context.Context, data InsertDTO) error
+	Update(ctx context.Context, data UpdateDTO) error
 	Delete(ctx context.Context, id string) error
 	Get(ctx context.Context, offset int, limit int) ([]models.Todo, error)
 	GetByDate(ctx context.Context, date time.Time) ([]models.Todo, error)
