@@ -11,4 +11,4 @@
   3. move executable into a folder specified in the env.
   4. Done.
 
-![cat](https://i.pinimg.com/originals/35/f0/ce/35f0cebab052abf2162e8e56713a9fb4.jpg)https://i.pinimg.com/originals/35/f0/ce/35f0cebab052abf2162e8e56713a9fb4.jpg) 
+![cat](https://i.pinimg.com/originals/35/f0/ce/35f0cebab052abf2162e8e56713a9fb4.jpg)
