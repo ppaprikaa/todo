@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/sanzhh/todo/internal/commands"
-	"github.com/sanzhh/todo/internal/db"
+	"github.com/ppaprikaa/todo/internal/commands"
+	"github.com/ppaprikaa/todo/internal/db"
 )
 
 func main() {

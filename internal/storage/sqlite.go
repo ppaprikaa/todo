@@ -7,9 +7,9 @@ import (
 	"time"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/sanzhh/todo/internal/lib/e"
-	"github.com/sanzhh/todo/internal/models"
-	"github.com/sanzhh/todo/internal/ports"
+	"github.com/ppaprikaa/todo/internal/lib/e"
+	"github.com/ppaprikaa/todo/internal/models"
+	"github.com/ppaprikaa/todo/internal/ports"
 )
 
 type sqlite struct {

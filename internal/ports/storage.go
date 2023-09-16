@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/sanzhh/todo/internal/models"
+	"github.com/ppaprikaa/todo/internal/models"
 )
 
 var (

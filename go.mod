@@ -1,4 +1,4 @@
-module github.com/sanzhh/todo
+module github.com/ppaprikaa/todo
 
 go 1.20
 

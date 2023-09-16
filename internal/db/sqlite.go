@@ -4,8 +4,8 @@ import (
 	"database/sql"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/sanzhh/todo/internal/config"
-	"github.com/sanzhh/todo/internal/lib/e"
+	"github.com/ppaprikaa/todo/internal/config"
+	"github.com/ppaprikaa/todo/internal/lib/e"
 )
 
 func NewSQLite() (_ *sql.DB, err error) {

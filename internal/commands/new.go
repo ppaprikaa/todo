@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sanzhh/todo/internal/db"
-	"github.com/sanzhh/todo/internal/models"
-	"github.com/sanzhh/todo/internal/ports"
-	"github.com/sanzhh/todo/internal/storage"
+	"github.com/ppaprikaa/todo/internal/db"
+	"github.com/ppaprikaa/todo/internal/models"
+	"github.com/ppaprikaa/todo/internal/ports"
+	"github.com/ppaprikaa/todo/internal/storage"
 	"github.com/spf13/cobra"
 )
 

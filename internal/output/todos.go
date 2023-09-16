@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/sanzhh/todo/internal/models"
+	"github.com/ppaprikaa/todo/internal/models"
 )
 
 func Todos(todos []models.Todo) (string, error) {
