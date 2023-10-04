@@ -8,7 +8,7 @@
 ## If you want to use it (What's wrong with you?):
   1. set `LOS_TODOS_HERMANOS` - it is a path to `config.yaml` file.
   2. specify `DSN` or path to SQLite DB file in `config.yaml` file.
-  3. move executable into a folder specified in the env.
+  3. move executable into a folder specified in the $PATH or create a symlink to executable in folder specified in $PATH.
   4. Done.
 
 ![cat](https://i.pinimg.com/originals/35/f0/ce/35f0cebab052abf2162e8e56713a9fb4.jpg)
